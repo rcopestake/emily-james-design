@@ -1,0 +1,207 @@
+/* Global config */
+@import "config/variables"; // Your custom variables
+@import "config/colors"; // Your custom color scheme
+@import "config/settings"; // Default settings file. Uncomment each setting you need to change
+
+/* Foundation 5 */
+@import "foundation"; // Foundation 5 by Zurb
+
+/*///////////////////////////emily james css styles\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: $ej-off-black;
+}
+
+/*main navigation*/
+.top-bar-container{
+	margin-top: .5rem;
+	margin-bottom: .5rem !important;
+}
+.contain-to-grid, .top-bar, .top-bar-section ul li, .top-bar-section ul li a{
+	background-color: $ej-off-black !important;
+}
+nav.top-bar {
+text-align:center;
+}
+section.top-bar-section {
+display: inline-block;
+}
+.top-bar-section ul li{
+	padding: 0 20px;
+}
+.top-bar-section ul li a{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 1rem;
+	letter-spacing: 2px;
+	line-height: 25px !important;
+	border-top: 1px solid $ej-off-black;
+	padding: 0 !important;
+}
+.top-bar-section ul li a:hover{
+	border-top: 1px solid $ej-off-white;
+}
+.home .top-bar-section ul li a.home-page {
+	border-top: 1px solid $ej-off-white;
+}
+.page-id-28 .top-bar-section ul li a.productions-page{
+	border-top: 1px solid $ej-off-white;
+}
+.page-id-52 .top-bar-section ul li a.biography-page{
+	border-top: 1px solid $ej-off-white;
+}
+.page-id-75 .top-bar-section ul li a.gallery-page{
+	border-top: 1px solid $ej-off-white;
+}
+/*headers*/
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 2.5rem;
+	color: $ej-off-white;
+	border-bottom: 1px dotted $ej-blue-faded;
+	margin-bottom: 40px;
+}
+h1 small{
+	color: $ej-blue;
+}
+h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	
+	color: $ej-blue;
+}
+h2{
+	font-size: 1.5rem;
+}
+/*typography*/
+p{
+	color: $ej-off-white;
+	line-height: 1.3;
+	margin-bottom: 1rem;
+	font-size: .9rem;
+}
+blockquote {
+    border-left: 1px solid $ej-blue;
+    margin: 1rem 0 1.25rem;
+    padding: 0 1.25rem 0 1.1875rem;
+    font-style: italic;
+    color: $ej-off-white;
+    line-height: 1.3;
+    font-size: .9rem;
+}
+/*images*/
+
+/*margins*/
+.marginTop10{
+	margin-top: 10px;
+}
+.marginTop20{
+	margin-top: 20px;
+}
+.marginTop40{
+	margin-top: 40px;
+}
+.marginBottom10{
+	margin-top: 10px;
+}
+.marginBottom20{
+	margin-top: 20px;
+}
+.marginBottom40{
+	margin-top: 40px;
+}
+
+/*productions*/
+.productions{
+	margin-top: 40px;
+}
+.productions h2{
+	color: $ej-off-white;
+	font-size: 1rem;
+}
+.productions h2 span{
+	color: $ej-blue;
+}
+.tabs dd.active a, .tabs .tab-title.active a {
+    background-color: transparent;
+    color: $ej-off-white;
+    border-left: 1px solid $ej-blue;
+    padding: 2px 0 2px 4px;
+}
+.tabs dd > a, .tabs .tab-title > a {
+    background-color: transparent;
+    color: $ej-off-white;
+    display: block;
+    font-family:  'Raleway', sans-serif;
+    font-size: .8rem;
+    padding: 2px 0 2px 5px;
+}
+.tabs dd > a:hover, .tabs .tab-title > a:hover{
+	background-color: transparent;
+	border-left: 1px solid $ej-blue;
+	padding: 2px 0 2px 4px;
+}
+/*footer*/
+.footer-wrap{
+	background-color: #000;
+	padding: 20px 0;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+footer.row {
+    margin-top: 0 !important;
+}
+footer img{
+	border: 1px solid #fff;
+}
+footer h6{
+	color: $ej-off-white;
+}
+
+/* Behold, here are all the Foundation components. Comment out "foundation" above if you would select the parts
+of Foundation used instead.
+This can decrease the css file size drastically, and should be done before production*/
+//  @import "foundation/components/grid";
+//  @import "foundation/components/accordion";
+//  @import "foundation/components/alert-boxes";
+//  @import "foundation/components/block-grid";
+//  @import "foundation/components/breadcrumbs";
+//  @import "foundation/components/button-groups";
+//  @import "foundation/components/buttons";
+//  @import "foundation/components/clearing";
+//  @import "foundation/components/dropdown";
+//  @import "foundation/components/dropdown-buttons";
+//  @import "foundation/components/flex-video";
+//  @import "foundation/components/forms";
+//  @import "foundation/components/icon-bar";
+//  @import "foundation/components/inline-lists";
+//  @import "foundation/components/joyride";
+//  @import "foundation/components/keystrokes";
+//  @import "foundation/components/labels";
+//  @import "foundation/components/magellan";
+//  @import "foundation/components/orbit";
+//  @import "foundation/components/pagination";
+//  @import "foundation/components/panels";
+//  @import "foundation/components/pricing-tables";
+//  @import "foundation/components/progress-bars";
+//  @import "foundation/components/range-slider";
+//  @import "foundation/components/reveal";
+//  @import "foundation/components/side-nav";
+//  @import "foundation/components/split-buttons";
+//  @import "foundation/components/sub-nav";
+//  @import "foundation/components/switches";
+//  @import "foundation/components/tables";
+//  @import "foundation/components/tabs";
+//  @import "foundation/components/thumbs";
+//  @import "foundation/components/tooltips";
+//  @import "foundation/components/top-bar";
+//  @import "foundation/components/type";
+//  @import "foundation/components/offcanvas";
+//  @import "foundation/components/visibility";
+
+/* Site structure */
+@import "site/structure"; // Your site structure
+
+/* Assets */
+@import "assets/icons"; // Load Foundation icon fonts

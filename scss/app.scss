@@ -93,6 +93,9 @@ blockquote {
     line-height: 1.3;
     font-size: .9rem;
 }
+cite{
+	font-size: .8rem;
+}
 a{
 	color: $ej-blue;
 }
@@ -157,9 +160,16 @@ img.border{
 	padding: 2px 0 2px 4px;
 }
 
-.orbit-slides-container {
-    height: 400px !important;
+/*press*/
+
+#press{
+	blockquote{
+		border: none;
+		padding-left: 0;
+		margin-bottom: 0;
+	}
 }
+
 /*footer*/
 .footer-wrap{
 	background-color: #000;
